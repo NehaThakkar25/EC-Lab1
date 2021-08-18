@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #12043e;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a,
+a:hover,
+a:active,
+a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+h1{
+  text-align: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.con ul{
+  list-style: none;
+  padding: 0;
+}
+
+.con li{
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.con{
+  position: absolute;
+  top: 48%;
+  left: 40%;
+  transform: translateY(-50%);
+  border: 1px solid #fff;
+  padding: 30px 40px;
+  border-radius: 5%;
+}
+
+.con .con_form{
+  display: block;
+  text-align: center;
+}
+
+.con input[type=text]{
+  padding: 15px 10px;
+  background: transparent;
+  border-bottom: 1px solid #fff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none !important;
+  margin: 30px 0;
+  color: #fff;
+  width: 250px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.con input[type=submit]{
+  padding: 5px 10px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  background: #885fff;
+  color: #fff;
+  border-radius: 5%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.con input[type=submit]:hover{
+  background: transparent;
+  border: 1px solid #885fff;
+  transition: all 0.5s ease;
+}
